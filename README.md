@@ -172,9 +172,9 @@ Algunos clientes de correo, generan automáticamente espacios blanco,  entre las
     <p style="color:#000; font-size:25px;">Texto demo</p>
 
  
+----------
 
-
-----------// **Evita**
+// **Evita**
 
     <img src="chanfle.jpg"/>
 
@@ -209,8 +209,9 @@ tinyjpg.com
 imageoptimizer.net
 
 ###**Buttons**
+----------
 
-----------// **Evita**
+// **Evita**
 
     <a href="#" class="btn btn-primary">Click Here</a>
 
@@ -355,15 +356,15 @@ De esta manera, nos  aseguramos que los destinatarios las visualicen correctamen
 
 
  - Mac OS X
- - Sublime Text
- - Dreamweaver
- - Illustrator
- - Photoshop
+    - Sublime Text
+    - Dreamweaver
+    - Illustrator
+    - Photoshop
  -  Windows
     - Sublime Text
- - Dreamweaver
- - Illustrator
- - Photoshop
+    - Dreamweaver
+    - Illustrator
+    - Photoshop
    
 ###**Ambiente Local**
 
