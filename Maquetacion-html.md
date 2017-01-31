@@ -4,9 +4,9 @@ Dejo esta guia inicial para tener una buena maquetacion html y tener mejores res
 
 inicio dejando 2 frases.
 
-> ### Conseguir grandes resultados requiere grandes acciones- Jim Rohn
-
-> ### La mejor publicidad es la que hacen los clientes satisfechos- Philip Kotler
+      Conseguir grandes resultados requiere grandes acciones- Jim Rohn
+        
+     La mejor publicidad es la que hacen los clientes satisfechos- Philip Kotler
 
 ### Puntos claves para iniciar..
 
@@ -19,43 +19,94 @@ inicio dejando 2 frases.
 Encoding: La razón por la que se hace uso de los “&aacute” es que la página no define su encoding, debe estar en UTF-8, y especificar el meta para el encoding, de modo que no haya ninguna necesidad de utilizar HTML entities para las tildes y caracteres raros.
 
 
+----------
+
+
 Usa etiquetas de ‘Título’ con significado. Lo que introducimos en la etiqueta <title> es lo que Google utiliza para su lista de resultados.
 
+
+----------
+
+
 Usa metaetiquetas descriptivas. Las metaetiquetas descriptivas ayudan a que los robots de los buscadores obtengan mayor información acerca de las páginas.
+
+
+----------
+
 
 La Metaetiqueta “Description” : Esta metaetiqueta describe el propósito principal de una página. Deberá ser diferente en cada página o sección. Google también utiliza el contenido de ésta y lo muestra en los resultados de búsqueda.
 Para no saturar las descripciones es mejor que incluyas contenido conciso que atraiga a tus potenciales visitantes.
 
+
+----------
+
+
 Metaetiqueta “keywords‟ (palabras clave) 
 Esta metaetiqueta incluye palabras separadas por comas que son relevantes al contenido de la página y al igual que la metaetiqueta “description‟, debe ser concisa y directa.
+
+
+----------
+
 
 Utiliza divs “<div>” para maquetar y dividir tu contenido en zonas o secciones
 El primer paso que debes tener en cuenta es dividir el contenido de la página en secciones principales para organizar la información de la misma. Con esto garantizarás un contenido ordenado y con una buena arquitectura de la información.
 
+
+----------
+
+
 Por regla general NO utilizar tablas, A MENOS que se trate de información tabulada,
 pues si la naturaleza de la información es una relación de datos tabulados, entonces nada mejor que una tabla para representarla (ej: tablas comparativas, desgloses, una relación de elementos con sus respectivas propiedades, etc).
 
-incorrecto: que el marco del sitio sea una tabla que lo envuelve todo para darle estructura
+
+----------
+
+
+incorrecto: que el marco del sitio sea una tabla que lo envuelve todo para darle estructura.
+
 correcto: que una tabla con “info tabulada” forme “parte” del cuerpo de un contenido (ej: http://en.wikipedia.org/wiki/Comparison_of_web_application_frameworks o http://drupal.org/project/usage/drupal).
 
+
+----------
+
+
 SEO: cabecera y logos como imágenes son anti-SEO, se deben utilizar trucos para representar textos (aunque estén ocultos bajo las imágenes) y en cualquier caso los “alt” y “title” de esas imágenes son bastante importante.
+
+
+----------
+
 
 Separa el contenido de la página HTML del estilo con que se muestra
 El código HTML contendrá la información, el código CSS el estilo y la manera en que se presenta. Siempre hay que usar estilos separados y no dentro de la página HTML. Así el código será más limpio y permitirá modificaciones de manera más eficaz.
 
-Intenta unificar todos los estilos en una sola hoja de estilos
 
+----------
+
+
+Intenta unificar todos los estilos en una sola hoja de estilos
 Cada archivo implica una solicitud HTTP, lo cual hace que el tiempo de carga de la página sea más lento.
 
 Cuando son muchos CSS para IE se utiliza el “@import”, que permite entonces exceder el límite de 30, pero mucho mejor es utilizar un framework que permita “agregar” los ficheros CSS y JS en un único fichero para CSS y un único fichero para JS (lo cual resuelve el problema de las descargas paralelas).
+
+
+----------
+
 
 Intenta tener la menor cantidad de ficheros externos de JavaScript 
 No es recomendable atiborrar nuestro código HTML de llamadas a ficheros externos.
 Tener el código JavaScript en ficheros aparte con extensión JS, y aunque a veces hará falta poner algo del código en la página, este debe ser de mínimo impacto.
 
+
+----------
+
+
 Utiliza siempre que sea posible funcionalidades de CSS2 en lugar código JavaScript para los estilos como el hover con lo que se evita estar cargando innecesariamente la ejecución del JavaScript.
 
 Usar las etiquetas de encabezados “<h1>…<h6>” de manera jerárquica para otorgar importancia a nuestro contenido y que éste sea clasificado acertadamente.
+
+
+----------
+
 
 Haz un buen uso de las etiquetas HTML
 
@@ -110,9 +161,7 @@ Valida el código
 Es una herramienta muy útil que puede ayudarte a encontrar errores tales como olvidar cerrar una etiqueta, haber cerrado un estilo con dos puntos en lugar de punto y coma y un largo etc. Te animamos a usar el validador del W3C.
 
 
- >**Si tienes alguna sugerencia o quieres aportar algo mas te invito a que edites esta guia y agregues datos de acuerdo a tu experiencia :)**
+ >Si tienes alguna sugerencia o quieres aportar algo mas te invito a que edites esta guia y agregues datos de acuerdo a tu experiencia :)
 
 
-**Salu2.**
-
-
+Salu2.
