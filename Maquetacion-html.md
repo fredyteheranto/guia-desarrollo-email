@@ -10,8 +10,11 @@ inicio dejando 2 frases.
 
 ### Puntos claves para iniciar..
 
-Lo primero es declarar un doctype. La declaración de un “Doctype” deberá localizarse al inicio del código HTML.
-Es importante señalar que en la declaración del doctype NO debe haber NINGÚN espacio en blanco ni cambio de línea ANTES , la mayoría de los navegadores saben arreglárselas, pero en IE8 provocará “misteriosos comportamientos”.
+> Lo primero es declarar un doctype. La declaración de un “Doctype”
+> deberá localizarse al inicio del código HTML. Es importante señalar
+> que en la declaración del doctype NO debe haber NINGÚN espacio en
+> blanco ni cambio de línea ANTES , la mayoría de los navegadores saben
+> arreglárselas, pero en IE8 provocará “misteriosos comportamientos”.
 
 Encoding: La razón por la que se hace uso de los “&aacute” es que la página no define su encoding, debe estar en UTF-8, y especificar el meta para el encoding, de modo que no haya ninguna necesidad de utilizar HTML entities para las tildes y caracteres raros.
 
@@ -107,7 +110,7 @@ Valida el código
 Es una herramienta muy útil que puede ayudarte a encontrar errores tales como olvidar cerrar una etiqueta, haber cerrado un estilo con dos puntos en lugar de punto y coma y un largo etc. Te animamos a usar el validador del W3C.
 
 
-> **Si tienes alguna sugerencia o quieres aportar algo mas te invito a que edites esta guia y agregues datos de acuerdo a tu experiencia :)**
+ >**Si tienes alguna sugerencia o quieres aportar algo mas te invito a que edites esta guia y agregues datos de acuerdo a tu experiencia :)**
 
 
 **Salu2.**
